@@ -12,12 +12,8 @@
 </template>
 
 <script>
-import LSideMenu from '../common/LSideMenu'
 export default {
   name: 'index',
-  components: {
-    LSideMenu
-  },
   mounted () {
     window.localStorage.setItem('bid', 'goudan')
   }

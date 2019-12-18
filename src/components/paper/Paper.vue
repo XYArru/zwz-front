@@ -30,11 +30,8 @@
 
 <script>
 import $ from 'jquery'
-import CommentList from '../comment/CommentList'
-import CommentWrite from '../comment/CommentWrite'
 export default {
   name: 'Paper',
-  components: {CommentWrite, CommentList},
   inject: ['reload'],
   data () {
     return {
